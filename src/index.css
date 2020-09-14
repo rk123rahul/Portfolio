@@ -1,0 +1,278 @@
+*{ margin:0; padding:0; box-sizing: border-box;}
+.nav{
+       
+       border-bottom: solid black;
+       font-size:20px;
+       border-width:1px;
+}
+.nav-item{
+      
+    font-size: 15px;
+    font-weight: 600;
+}
+.vl {
+       border-left: 2px solid whitesmoke;
+       height: 150px;
+       margin-top: 298px;
+     }
+.vl1{
+       display: flex;
+       
+}
+.name{
+       font-size: 47px;
+       margin-top: 300px;
+       font-weight: 400;
+       margin-left: 7px;
+}
+   
+body{
+      
+      
+       background-color: #000000;
+       font-family: 'Work Sans', sans-serif;
+       background-image: url("pexels-pixabay-356147.jpg");
+       background-size: cover;
+       background-position: center;
+     
+       
+}
+.top{
+       height: 700px;
+}
+
+.home_flex{
+     position:relative;
+     height: 54px;
+    width: 57px;
+    margin-top: 110px;
+    left: 700px;
+}
+.dropbtn {
+       background-color: white;
+       color:black;
+       padding: 16px;
+       font-size: 16px;
+       border: none;
+       cursor: pointer;
+     }
+     
+     /* The container <div> - needed to position the dropdown content */
+     .dropdown {
+       position: relative;
+       display: inline-block;
+       margin-top: 145px;
+    margin-left: 542px;
+     }
+     
+     /* Dropdown Content (Hidden by Default) */
+     .dropdown-content {
+       display: none;
+       position: absolute;
+       /* background-color: whitesmoke; */
+       min-width: 77px;
+       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+       z-index: 1;
+       height: 249px;
+     }
+     
+     /* Links inside the dropdown */
+     .dropdown-content a {
+       color: black;
+       padding: 12px 16px;
+       text-decoration: none;
+       display: block;
+     }
+     
+     /* Change color of dropdown links on hover */
+     .dropdown-content a:hover {background-color: #f1f1f1}
+     
+     /* Show the dropdown menu on hover */
+     .dropdown:hover .dropdown-content {
+       display: block;
+     }
+     
+     /* Change the background color of the dropdown button when the dropdown content is shown */
+     .dropdown:hover .dropbtn {
+               background-color:grey;
+     }
+
+
+.button1{
+       margin-left: 38px;
+    width: 206px;
+    margin-top: 38px;
+    border-radius: 47px;
+    height: 44px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.drop{
+      margin-top: 10px;
+      margin-bottom: 10px;
+     
+      
+}
+.drop:hover{
+       background-color: black !important;
+}
+.course{
+       font-size: 1rem;
+    font-weight: 200;
+    margin-left: 7px;
+    color: gray;
+}
+.element{
+       margin-right: 30px;
+}
+.logo{
+       font-weight: 600;
+}
+.menu{
+       margin-left: 394px;
+}
+.homeh31{
+        font-weight:400;
+        color:white;
+       
+       
+}
+.homeh32{
+       font-weight:400;
+       margin-top: 30px;
+       color: white;
+      
+}
+.homeh1{
+       font-weight:400;
+       
+}
+.flex1{
+       display:flex;
+       margin-bottom:200px;
+       
+}
+.objective{
+        margin-top:20%;
+        margin-right:50px;
+}
+.objective2{
+       font-weight:400;
+}
+.xyz{
+       padding-top: 10px;
+}
+@media( max-width:1000px) {
+       .flex1{
+             display:block;
+             margin:10px;
+             
+       }
+}
+.profile1{
+         display:flex;
+        
+        justify-content: space-around;
+}
+.pic2_name{
+        font-size: 40px;
+        font-weight:440;
+        margin-top:80px;
+}
+
+.profile{
+         padding: 100px;
+         background-image: url("pexels-rahul-716398.jpg");
+       
+         height:300px;
+       background-size: cover;
+       background-position:center;
+      
+       
+}
+.rawicon{
+         display: flex;
+         align-items: center;
+         justify-content: space-around;
+         
+}
+.b2{
+       display:flex;
+       align-items: center;
+       justify-content: space-around;
+}
+.b1{
+       font-size:20px;
+       font-weight: 200;
+       margin:20px;
+       margin-bottom: 30px;
+}
+.b3{
+       display: flex;
+       align-items: center;
+
+}
+.b4{
+       font-size:20px;
+       font-weight: 200;
+       margin:20px;
+       margin-bottom:280px;
+}
+.ImportContactsRoundedIcon{
+                
+                 color:black;
+                 
+}
+.SECONDARY{
+          margin-top: 50px;
+          
+}
+.kps{
+      
+       margin-top: 50px;
+       font-weight:300;
+}
+.smk{
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      font-size: 50px;
+}
+.education {
+         background-image: url("pexels-miguel-á-padriñán-68562.jpg");
+         
+         background-size: cover;
+        
+}
+.home_background{
+           
+           background-color: rgb(2, 5, 29);
+         
+           
+            height:1000px;
+}
+.p{
+       background-color: black;
+}
+.hobbies_background{
+            background-image: url("pexels-daniel-absi-952670.jpg");
+            height: 1500px;
+            background-size: cover;
+            background-position: center;
+         font-size: 50px;
+}
+.hobbies_img1{
+          max-width: 300px;
+          max-height: 300px;
+}
+.raw22{
+       display:flex;
+       justify-content: space-around;
+       align-items: center;
+}
+.p1{
+       font-size: 20px;
+}
+.hrami{
+       font-size: 30px;
+}
