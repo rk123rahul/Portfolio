@@ -1,45 +1,38 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
-import "./index.css";
+
+import "./menu.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-
-
-
+import img1 from "./rahul pic.jpeg";
+import HomeIcon from '@material-ui/icons/Home';
+import LibraryAddIcon from '@material-ui/icons/LibraryAdd';
+import PermContactCalendarIcon from '@material-ui/icons/PermContactCalendar';
 const Menu = () => {
      return (
          <>
-  <div className=" container xyz ">    
-    <div className="raw">
-      <div className="col-12 mx-auto">
+  
+<nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a className="navbar-brand js-scroll-trigger" href="#page-top">
+                <span className="d-block d-lg-none">PORTFOLIO</span>
+                <span className="d-none d-lg-block"><img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={img1} width="151px" alt="" /></span>
+            </a>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon"></span></button>
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul className="navbar-nav">
+                <li className="nav-item element ">
+        <NavLink exact activeClassName="nav" className="nav-link text-light"to="./"><span className="home">Home</span> <span className="sr-only">(current)</span> </NavLink>
+      </li>
       
-<nav className="navbar navbar-expand-lg navbar-light ">
-       <NavLink className="navbar-brand text-light logo" to="#"><span className="text-light">Port</span>folio</NavLink>
-        <button className="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-         <span className="navbar-toggler-icon "></span>
-        </button>
-
-  <div className="collapse navbar-collapse menu" id="navbarSupportedContent">
-    <ul className="navbar-nav t">
-      <li className="nav-item element ">
-        <NavLink exact activeClassName="nav" className="nav-link text-light"to="./">Home<span class="sr-only">(current)</span> </NavLink>
-      </li>
-      <li className="nav-item element">
-        <NavLink exact activeClassName="nav" className="nav-link text-light"to="./Profile">Profile<span class="sr-only">(current)</span></NavLink>
+     
+      <li className="nav-item element active">
+        <NavLink exact activeClassName="nav" className="nav-link text-light"to="./Marks2"> <span className="home">Projects</span> <span className="sr-only">(current)</span></NavLink>
       </li>
       <li className="nav-item element active">
-        <NavLink exact activeClassName="nav" className="nav-link text-light"to="./Marks">Education <span class="sr-only">(current)</span></NavLink>
+        <NavLink exact activeClassName="nav" className="nav-link text-light"to="./Hobbies"> <span className="home">Contact ME</span> <span className="sr-only">(current)</span></NavLink>
       </li>
-      <li className="nav-item element active">
-        <NavLink exact activeClassName="nav" className="nav-link text-light"to="./Hobbies">Hobbies<span class="sr-only">(current)</span></NavLink>
-      </li>
-    
-    </ul>
-   
-  </div>
-</nav>
-</div>
-</div>
-</div>
+                </ul>
+            </div>
+        </nav>
 
    
          </>

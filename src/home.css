@@ -1,0 +1,67 @@
+.body1{
+      
+      
+    background-color: #000000;
+    font-family: 'Work Sans', sans-serif;
+    background-image: url("pexels-pixabay-356147.jpg");
+    background-size: cover;
+    background-position: center;
+  
+    
+}
+.skills{
+
+}
+.top{
+    height: 700px;
+}
+.vl1{
+    display: flex;
+    
+}
+.vl {
+    border-left: 2px solid whitesmoke;
+    height: 150px;
+    margin-top: 298px;
+  }
+  .name{
+    font-size: 47px;
+    margin-top: 300px;
+    font-weight: 400;
+    margin-left: 7px;
+}
+.course{
+    font-size: 1rem;
+ font-weight: 200;
+ margin-left: 7px;
+ color: gray;
+}
+.button1{
+    margin-left: 38px;
+ width: 206px;
+ margin-top: 38px;
+ border-radius: 47px;
+ height: 44px;
+ font-weight: 600;
+ font-size: 15px;
+}
+.fullstack{
+    color: #bd5d38;
+}
+.intrest{
+    font-size: 40px;
+}
+@media only screen and (max-width: 700px) {
+    .rahul{
+        font-size: 49px;
+    }
+    .kumar{
+        font-size: 49px;
+    }
+    .rvc{
+        font-size: 20px;
+    }
+    .intrest{
+        font-size: 20px;
+    }
+  }

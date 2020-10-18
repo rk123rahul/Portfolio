@@ -1,0 +1,89 @@
+.form22 {
+  width: 584px;
+  height: 481px;
+  background: #e6e6e6;
+  border-radius: 8px;
+  box-shadow: 0 0 19px -10px #000;
+  margin: calc(50vh - 220px) auto;
+  padding: 20px 30px;
+  max-width: calc(100vw - 40px);
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+.h22 {
+  margin: 10px 0;
+  padding-bottom: 10px;
+  width: 381px;
+  color: #343a40;
+  border-bottom: 3px solid #bd5d38;
+}
+@media only screen and (max-width: 700px) {
+  .h22 {
+    margin: 10px 0;
+    padding-bottom: 10px;
+    width: 264px;
+    color: #343a40;
+    border-bottom: 3px solid #bd5d38;
+}
+}
+  input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-family: "Montserrat", sans-serif;
+    transition: all 0.3s;
+    border-bottom: 2px solid #343a40;
+  }
+  input:focus {
+    border-bottom: 2px solid #78788c;
+  }
+  .us{
+    color: #bd5d38;
+  }
+  .p22
+    :before {
+        content: attr(type);
+        display: block;
+        margin: 28px 0 0;
+        font-size: 14px;
+        color: #5a5a5a;
+      }
+ 
+   .button22 {
+        float: right;
+        padding: 8px 12px;
+        margin: 8px 0 0;
+        font-family: "Montserrat", sans-serif;
+        border: 2px solid #bd5d38;
+        background: 0;
+        color:#343a40;
+        cursor: pointer;
+        transition: all 0.3s;
+      }
+     .button22:hover {
+        background: #bd5d38;
+        color: #fff;
+      }
+      .div22 {
+        content: "Hi";
+        position: absolute;
+        bottom: -15px;
+        right: -20px;
+        background: #bd5d38;
+        color: #fff;
+        width: 320px;
+        padding: 16px 4px 16px 0;
+        border-radius: 6px;
+        font-size: 12px;
+        box-shadow: 10px 10px 40px -14px #000;
+    }
+      .span22 {
+        margin: 0 5px 0 15px;
+      }
+ 
+  

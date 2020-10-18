@@ -5,8 +5,8 @@ import "./index.css";
 import Menu from "./Menu"
 import { Route, Switch } from "react-router-dom";
 import Home from "./Home";
-import Profile from "./Profile";
-import Marks from "./Marks";
+
+import Marks2 from "./Marks2";
 import Hobbies from "./Hobbies";
 
 const App = () => {
@@ -16,8 +16,8 @@ const App = () => {
         <Switch>
                <Route exact path="/" component={Home}/>
                
-               <Route exact path="/Profile" component={Profile}/>
-               <Route  exact path="/Marks" component={Marks}/>
+               
+               <Route  exact path="/Marks2" component={Marks2}/>
                <Route exact path="/Hobbies" component={Hobbies}/>
         </Switch>
         
